@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mentions légales - Les Petits Lutins de la Coupée de Charnay</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h1{
+    color:#5b7c99;
+    margin-bottom:30px;
+}
+
+.legal-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.legal-grid h2{
+    font-size:1.2rem;
+    margin-bottom:10px;
+}
+
+.legal-grid p + p{
+    margin-top:8px;
+}
+
+.btn{
+    display:inline-block;
+    background:#5b7c99;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:4px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+    .legal-grid{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+<main class="container">
+    <h1>Mentions légales</h1>
+
+    <div class="legal-grid">
+        <section>
+            <h2>Éditeur du site</h2>
+            <p>LES PETITS LUTINS DE LA COUPÉE DE CHARNAY</p>
+            <p>Association loi 1901</p>
+            <p>RNA : W715002685</p>
+        </section>
+
+        <section>
+            <h2>Nom de domaine</h2>
+            <p>
+                Le nom de domaine <strong>lutinscharnay.fr</strong> est détenu et exploité
+                par l'association LES PETITS LUTINS DE LA COUPÉE DE CHARNAY
+            </p>
+        </section>
+
+        <section>
+            <h2>Objet du site</h2>
+            <p>
+                Ce site constitue la présence web officielle de l'association
+                LES PETITS LUTINS DE LA COUPÉE DE CHARNAY.
+            </p>
+        </section>
+
+        <section>
+            <h2>Données personnelles et liens externes</h2>
+            <p>Ce site ne collecte actuellement aucune donnée personnelle.</p>
+            <p>
+                Il contient un lien vers la page Facebook officielle de
+                l'association.
+            </p>
+        </section>
+
+        <section>
+            <h2>Propriété intellectuelle</h2>
+            <p>Les contenus publiés sur ce site demeurent la propriété de leurs auteurs.</p>
+        </section>
+    </div>
+
+    <a href="index.html" class="btn">Retour à l'accueil</a>
+</main>
+</body>
+</html>
